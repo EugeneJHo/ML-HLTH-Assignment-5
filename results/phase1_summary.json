@@ -1,0 +1,10 @@
+{
+  "n_records": 552,
+  "positive_rate_ph_lt_7_20": 0.32065217391304346,
+  "positive_rate_ph_lt_7_05": 0.07246376811594203,
+  "n_pos_7_20": 177,
+  "n_pos_7_05": 40,
+  "imbalance_notes": "Class imbalance (~32% positive at pH<7.20; ~7% at pH<7.05). Mitigations: class_weight='balanced', oversampling of minority crops, threshold tuning on ROC, and reporting sensitivity at fixed high specificity.",
+  "example_normal": "1409",
+  "example_hypoxic": "1180"
+}

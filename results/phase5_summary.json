@@ -1,0 +1,75 @@
+{
+  "rows": [
+    {
+      "subgroup": "maternal_age",
+      "level": "younger",
+      "auc": 0.680143788147711,
+      "n": 322,
+      "n_pos": 113
+    },
+    {
+      "subgroup": "maternal_age",
+      "level": "older",
+      "auc": 0.6668644530085011,
+      "n": 230,
+      "n_pos": 64
+    },
+    {
+      "subgroup": "birth_weight",
+      "level": "lower",
+      "auc": 0.6730401970974625,
+      "n": 277,
+      "n_pos": 98
+    },
+    {
+      "subgroup": "birth_weight",
+      "level": "higher",
+      "auc": 0.7033289704575242,
+      "n": 274,
+      "n_pos": 79
+    },
+    {
+      "subgroup": "gestation",
+      "level": "earlier",
+      "auc": 0.723277239889977,
+      "n": 346,
+      "n_pos": 114
+    },
+    {
+      "subgroup": "gestation",
+      "level": "later",
+      "auc": 0.6825767774637349,
+      "n": 206,
+      "n_pos": 63
+    },
+    {
+      "subgroup": "fhr_missing",
+      "level": "low",
+      "auc": 0.6810967052316557,
+      "n": 276,
+      "n_pos": 75
+    },
+    {
+      "subgroup": "fhr_missing",
+      "level": "high",
+      "auc": 0.6976296636761609,
+      "n": 276,
+      "n_pos": 102
+    },
+    {
+      "subgroup": "acquisition",
+      "level": "Doppler ultrasound",
+      "auc": 0.6958003880648398,
+      "n": 413,
+      "n_pos": 143
+    },
+    {
+      "subgroup": "acquisition",
+      "level": "fECG (scalp electrode)",
+      "auc": 0.8062698522085061,
+      "n": 102,
+      "n_pos": 27
+    }
+  ],
+  "bias_discussion": "Performance often differs by signal quality and acquisition method \u2014 ultrasound traces with more missingness are harder. Demographic gaps (age, weight) may reflect clinical risk correlations with pH rather than pure algorithmic unfairness; still, disparate error rates warrant caution before clinical use."
+}

@@ -1,0 +1,11 @@
+subgroup,level,auc,n,n_pos
+maternal_age,younger,0.680143788147711,322,113
+maternal_age,older,0.6668644530085011,230,64
+birth_weight,lower,0.6730401970974625,277,98
+birth_weight,higher,0.7033289704575242,274,79
+gestation,earlier,0.723277239889977,346,114
+gestation,later,0.6825767774637349,206,63
+fhr_missing,low,0.6810967052316557,276,75
+fhr_missing,high,0.6976296636761609,276,102
+acquisition,Doppler ultrasound,0.6958003880648398,413,143
+acquisition,fECG (scalp electrode),0.8062698522085061,102,27

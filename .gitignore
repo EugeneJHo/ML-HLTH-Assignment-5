@@ -1,0 +1,22 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.mplconfig/
+.pytest_cache/
+.mypy_cache/
+*.log
+
+# Large local caches / intermediates
+results/cache/
+*.parquet
+!results/.gitkeep
+!figures/.gitkeep
+
+# Optional: keep PhysioNet data local-only if pushing becomes slow
+# Uncomment to exclude the dataset from git:
+# data/ctu-uhb/
+# ctu-chb-intrapartum-cardiotocography-database-1.0.0/

@@ -1,0 +1,101 @@
+{
+  "top_features": [
+    {
+      "feature": "fhr_std",
+      "mean_abs_shap": 0.07253083509422126
+    },
+    {
+      "feature": "baseline_std",
+      "mean_abs_shap": 0.06018074142237826
+    },
+    {
+      "feature": "fhr_missing_frac",
+      "mean_abs_shap": 0.02850942433739005
+    },
+    {
+      "feature": "fhr_max",
+      "mean_abs_shap": 0.026033736684230147
+    },
+    {
+      "feature": "variability",
+      "mean_abs_shap": 0.018990512917721136
+    },
+    {
+      "feature": "uc_std",
+      "mean_abs_shap": 0.01641876256396464
+    },
+    {
+      "feature": "baseline_mean",
+      "mean_abs_shap": 0.012172932295419256
+    },
+    {
+      "feature": "uc_mean",
+      "mean_abs_shap": 0.011236989969713217
+    },
+    {
+      "feature": "fhr_mean",
+      "mean_abs_shap": 0.009646859256418486
+    },
+    {
+      "feature": "contraction_rate_per_10min",
+      "mean_abs_shap": 0.00920871390536473
+    }
+  ],
+  "false_positive": [
+    {
+      "fhr_mean": 134.6740187994723,
+      "fhr_std": 27.660300374137172,
+      "fhr_min": 65.0,
+      "fhr_max": 174.5,
+      "baseline_mean": 134.83496866754618,
+      "baseline_std": 25.243879488982646,
+      "variability": 11.162830556860895,
+      "n_accelerations": 0,
+      "n_decelerations": 1,
+      "n_contractions": 16,
+      "accel_rate_per_10min": 0.0,
+      "decel_rate_per_10min": 0.3333333333333333,
+      "contraction_rate_per_10min": 5.333333333333333,
+      "mean_decel_amp": 33.5,
+      "mean_accel_amp": 0.0,
+      "uc_mean": 16.020138888888887,
+      "uc_std": 30.1301484301879,
+      "fhr_missing_frac": 0.5798611111111112,
+      "uc_missing_frac": 0.0,
+      "y_true": 0,
+      "y_score": 0.8734859227862152,
+      "y_pred": 1,
+      "record_id": "2038",
+      "pH": 7.36
+    }
+  ],
+  "false_negative": [
+    {
+      "fhr_mean": 117.12845968712395,
+      "fhr_std": 13.449310181503087,
+      "fhr_min": 61.75,
+      "fhr_max": 139.5,
+      "baseline_mean": 118.85716287763414,
+      "baseline_std": 9.582614636720198,
+      "variability": 9.169958901388807,
+      "n_accelerations": 0,
+      "n_decelerations": 0,
+      "n_contractions": 14,
+      "accel_rate_per_10min": 0.0,
+      "decel_rate_per_10min": 0.0,
+      "contraction_rate_per_10min": 4.666666666666667,
+      "mean_decel_amp": 0.0,
+      "mean_accel_amp": 0.0,
+      "uc_mean": 13.866527777777778,
+      "uc_std": 24.436961796274137,
+      "fhr_missing_frac": 0.65375,
+      "uc_missing_frac": 0.0,
+      "y_true": 1,
+      "y_score": 0.12165264906187538,
+      "y_pred": 0,
+      "record_id": "1452",
+      "pH": 7.1
+    }
+  ],
+  "discussion": "SHAP typically highlights decelerations, low variability, baseline abnormalities, and missingness-related features. A false positive often shows decelerations / low variability without acidosis (non-specific CTG patterns). A false negative may have relatively reassuring FHR features despite low pH \u2014 reminding us that CTG is an imperfect proxy for cord gases."
+}

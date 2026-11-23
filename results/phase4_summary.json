@@ -1,0 +1,34 @@
+{
+  "baseline_auc": 0.7010678564667673,
+  "baseline_auc_ci": [
+    0.6472213639753871,
+    0.7442158707865169
+  ],
+  "baseline_op_spec90": {
+    "threshold": 0.654769040314894,
+    "sensitivity": 0.3559322033898305,
+    "specificity": 0.9013333333333333,
+    "tp": 63,
+    "fp": 37,
+    "tn": 338,
+    "fn": 114
+  },
+  "baseline_op_youden": {
+    "threshold": 0.46010838915371666,
+    "sensitivity": 0.6440677966101694,
+    "specificity": 0.6773333333333333,
+    "tp": 114,
+    "fp": 121,
+    "tn": 254,
+    "fn": 63
+  },
+  "with_demographics_auc": 0.7199885295856049,
+  "with_demographics_auc_ci": [
+    0.6660104838709677,
+    0.7608838759620009
+  ],
+  "quality_filtered_auc": 0.5352953791021935,
+  "quality_filtered_n": 148,
+  "imbalance_strategy": "RandomForest with class_weight='balanced'; evaluate with AUC and sensitivity at high specificity; optional quality filtering / threshold tuning.",
+  "operating_point_discussion": "For screening fetal hypoxia we prefer high specificity (here ~0.90) to limit unnecessary interventions, then report the achievable sensitivity. Youden's index offers a balanced alternative if false negatives are costlier."
+}

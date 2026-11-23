@@ -1,0 +1,42 @@
+{
+  "mean_fhr_missing": 0.15218242689257958,
+  "mean_fhr_missing_normal": 0.146280948989261,
+  "mean_fhr_missing_hypoxic": 0.16468555804367818,
+  "missing_by_acquisition": {
+    "mean": {
+      "Combined US + fECG": 0.1392,
+      "Doppler ultrasound": 0.1679,
+      "Unknown(-1.0)": 0.1746,
+      "fECG (scalp electrode)": 0.0926
+    },
+    "median": {
+      "Combined US + fECG": 0.1061,
+      "Doppler ultrasound": 0.1512,
+      "Unknown(-1.0)": 0.1746,
+      "fECG (scalp electrode)": 0.0506
+    },
+    "count": {
+      "Combined US + fECG": 35,
+      "Doppler ultrasound": 413,
+      "Unknown(-1.0)": 2,
+      "fECG (scalp electrode)": 102
+    }
+  },
+  "quality_filter_max_missing": 0.1,
+  "n_before_filter": 552,
+  "n_after_filter": 216,
+  "pos_rate_before": 0.32065217391304346,
+  "pos_rate_after": 0.3148148148148148,
+  "n_by_acq_before": {
+    "Doppler ultrasound": 413,
+    "fECG (scalp electrode)": 102,
+    "Combined US + fECG": 35,
+    "Unknown(-1.0)": 2
+  },
+  "n_by_acq_after": {
+    "Doppler ultrasound": 139,
+    "fECG (scalp electrode)": 61,
+    "Combined US + fECG": 16
+  },
+  "note": "Short dropouts <10 s are linearly interpolated; gaps \u226510 s remain missing. A 10% missingness filter reduces usable N and can shift class balance / acquisition-method mix because ultrasound traces tend to have more dropout."
+}
