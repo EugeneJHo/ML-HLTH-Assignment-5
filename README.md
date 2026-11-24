@@ -21,7 +21,16 @@ Place (or symlink) the PhysioNet CTU-UHB release so that either of these paths e
 
 Dataset source: https://physionet.org/content/ctu-uhb-ctgdb/1.0.0/
 
-## Run the full analysis
+## Run the analysis
+
+**Notebook (recommended — answers each assignment sub-question):**
+
+```bash
+source .venv/bin/activate
+jupyter notebook notebooks/Assignment5_CTG_Hypoxia.ipynb
+```
+
+**Script pipeline (writes `figures/` + `results/`):**
 
 ```bash
 source .venv/bin/activate
